@@ -1,14 +1,19 @@
 {
-  "name": "base_c",
+  "name": "slidev",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
+    "dev": "slidev",
+    "build": "slidev build --base /slidev/",
     "export": "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^52.6.0",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-default": "^0.34.7"
+  },
+  "devDependencies": {},
+  "slidev": {
+    "export": false
   }
 }
