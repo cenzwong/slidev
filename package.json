@@ -10,9 +10,8 @@
   },
   "dependencies": {
     "@slidev/cli": "^52.6.0",
-    "@slidev/theme-default": "^0.34.7"
+    "@slidev/theme-default": "latest"
   },
-  "devDependencies": {},
   "slidev": {
     "export": false
   }
