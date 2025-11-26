@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Build Slidev
-        run: npx slidev build --base /slidev/
+        run: npx slidev build --base /slidev/ --disable-export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
